@@ -7,6 +7,10 @@ android {
     namespace = "com.ismailmesutmujde.kotlinscrollview"
     compileSdk = 34
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.ismailmesutmujde.kotlinscrollview"
         minSdk = 24
